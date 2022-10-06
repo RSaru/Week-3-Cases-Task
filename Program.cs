@@ -1,4 +1,5 @@
-﻿//This is asking the user for an input for the first module, then the second line is accepting the input and making sure the console knows its an INt
+﻿/*
+//This is asking the user for an input for the first module, then the second line is accepting the input and making sure the console knows its an INt
 Console.WriteLine("What is your result for the first module? ");
 int moduleOne = Convert.ToInt32(Console.ReadLine());
 
@@ -50,6 +51,17 @@ switch (totalGrade)
     default:
         Console.WriteLine("You have Failed :(");
         break;
+}
+*/
+
+
+
+
+int i = 0;
+while (i < 1346) 
+{
+  Console.WriteLine(i);
+  i++;
 }
 
 Console.ReadLine();
